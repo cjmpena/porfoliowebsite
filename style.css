@@ -1,3 +1,10 @@
+/****
+ *
+ * Made By: Carla Manansala
+ * Created: November 21, 2024
+ * Updated:
+ *
+ ***/
 /* General Body */
 body {
     margin: 0;
@@ -125,6 +132,7 @@ body {
     .text-content {
         max-width: 600px;
     }
+
 /* Footer Styles */
 footer {
     display: flex;
@@ -147,7 +155,6 @@ footer {
 }
 
 
-/* Adjust Responsiveness */
 @media (max-width: 768px) {
     .info-container {
         flex-direction: column;
@@ -162,13 +169,3 @@ footer {
         max-width: 100%;
     }
 }
-
-/* .info-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    text-align: center;
-    gap: 15px; 
-    padding: 20px; 
-} */
