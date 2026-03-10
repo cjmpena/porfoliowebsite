@@ -1,43 +1,294 @@
 <!-- /
  Made By: Carla Jane Manansala
  Created: November 21, 2024
- Updated:
+ Updated: March 9,2026
  / -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio - Carla Jane Manansala</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav class="navbar">
-                <div class="logo">Carla's Portfolio</div>
-                <ul class="nav-links">
-                <!-- <li><a href="#projects">Projects</a></li> -->
-                <li><a href="files/UpdatedResume.pdf" target="_blank">Resume</a></li>
-                <!-- <li><a href="#contact">Contact</a></li> -->
-                </ul>
-            </nav>
-        </header>
-        <div class="info-container">
-            <div class="illustration">
-                <img src="images/me.png" alt="Carla Jane Manansala Illustration">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio – Carla Jane Manansala</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">CJ<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+                <li><a href="mailto:manansal.carla@gmail.com">Contact</a></li>
+                <li><a href="files/Resume.pdf" target="_blank" class="btn-resume">Resume ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-text">
+                <div class="hero-badge">Available for Volunteering opportunities!</div>
+                <h1 class="hero-name">Carla Jane<br><span class="accent">Manansala</span></h1>
+                <p class="hero-title">
+                    Software Developer @ <a href="https://www.mpi.mb.ca/" target="_blank"><strong>Manitoba Public Insurance</strong></a>
+                </p>
+                <p class="hero-desc">
+                    BIT Graduate from Red River College, Class of 2024. Passionate about technology and learning new things. I have experience in web development, software development, and data analysis. I am always looking to grow and learn in the tech industry.
+                </p>
+                <div class="hero-actions">
+                    <a href="mailto:manansal.carla@gmail.com" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Let's Talk
+                    </a>
+                    <a href="#projects" class="btn btn-ghost">
+                        View Projects
+                    </a>
+                </div>
             </div>
-            <h1>Weclome to my Portfolio!</h1>
-            <h2>Carla Jane Manansala</h2>
-            <p>Software Developer @ Manitoba Public Insurance<br> Alumni from Red River College, BIT Program Class of 2024</p>
-            <button class="btn-talk" onclick="location.href='mailto:manansal.carla@gmail.com';">Let's Talk</button>
+            <div class="hero-avatar">
+                <div class="avatar-ring">
+                    <img src="images/me.png" alt="Carla Jane Manansala"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="avatar-placeholder" style="display:none;">CJ</div>
+                </div>
+            </div>
         </div>
-    </body>
+    </section>
+
+    <!-- ── About Me ── -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <div>
+                <div class="section-label">Who I Am</div>
+                <h2 class="section-title">About Me</h2>
+            </div>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-bio">
+               <p>Hey all! I'm Carla, nickname is CJ! I am a Software Developer based in Winnipeg, Manitoba, born in Manila, Philippines and moved to Canada when I was 6 years old. I graduated from Red River College's BIT program in 2024 and currently work at Manitoba Public Insurance.</p>
+                <p>I'm passionate about technology and learning as much as I can. Besides work life, you'll probably find me on the basketball court, deep in a video game, or planning my next trip somewhere new.</p>
+            </div>
+
+            <div class="about-cards">
+
+                <div class="about-card">
+                    <div class="about-card-icon">🎂</div>
+                    <div class="about-card-label">Birthday</div>
+                    <div class="about-card-value">December 22, 2002</div>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-card-icon">📍</div>
+                    <div class="about-card-label">I was Born in</div>
+                    <div class="about-card-value">Manila, Philippines</div>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-card-icon">🏀</div>
+                    <div class="about-card-label">I play a few sports!</div>
+                    <div class="about-card-value">Basketball</div>
+                    <div class="about-card-value">Volleyball</div>
+                    <div class="about-card-value">Badminton</div>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-card-icon">🎮</div>
+                    <div class="about-card-label">Some of my Favourite Video Game Series</div>
+                    <div class="about-card-value">The Last of Us Series</div>
+                    <div class="about-card-value">Resident Evil Series</div>
+                    <div class="about-card-value">GTA</div>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-card-icon">✈️</div>
+                    <div class="about-card-label">Some of my Favourite Places I have been to:</div>
+                    <div class="about-card-value">Japan in 2025</div>
+                    <div class="about-card-value">Vancouver : Always here at least twice a year!</div>
+                    <div class="about-card-value">Los Cabos, Mexico in 2025</div>
+                    <div class="about-card-value">Seoul, South Korea in 2018</div>
+                    <div class="about-card-value">Last but not least, my motherland! Manila, Philippines in 2017, 2018, 2022, 2023, 2024</div>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-card-icon">🎓</div>
+                    <div class="about-card-label">Education</div>
+                    <div class="about-card-value">Intro to BIT: Red River College, 2021</div>
+                    <div class="about-card-value">BIT: Red River College, 2024</div>
+                    <div class="about-card-value">DMCI Alumni, Graduate 2020</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Work Experience ── -->
+    <section class="experience" id="experience">
+        <div class="section-header">
+            <div>
+                <div class="section-label">Career</div>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+        </div>
+
+        <div class="timeline">
+
+            <!-- MPI Software Developer -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Sep 2025 — Present</div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-role">Software Developer I</div>
+                            <div class="timeline-company">Manitoba Public Insurance</div>
+                        </div>
+                        <span class="timeline-badge current">Current</span>
+                    </div>
+                    <ul class="timeline-bullets">
+                        <li>Applying data patches and updates to stored procedures to maintain and correct production data integrity</li>
+                        <li>Learning and developing with PowerBuilder for legacy application maintenance</li>
+                        <li>Managing source control and work items using TFS (Team Foundation Server)</li>
+                        <li>Reviewing any incident tickets for on call. Scheduling and automating jobs using Dollar Universe</li>
+                        <li>Attending daily scrums</li>
+                    </ul>
+                    <div class="timeline-tags">
+                        <span class="tag">PowerBuilder</span>
+                        <span class="tag">TFS</span>
+                        <span class="tag">Dollar Universe</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Azure</span>
+                        <span class="tag">OOP</span>
+                        <span class="tag">.Net</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MPI IT Service Desk -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Oct 2024 — Sep 2025</div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-role">IT Service Desk Analyst</div>
+                            <div class="timeline-company">Manitoba Public Insurance</div>
+                        </div>
+                    </div>
+                    <ul class="timeline-bullets">
+                        <li>Provided technical support and troubleshooting for internal staff across the organization</li>
+                        <li>Managed and resolved IT service tickets, ensuring timely resolution and documentation</li>
+                        <li>Gained foundational knowledge of MPI's internal systems and IT infrastructure</li>
+                        <li>Covered as IT Supervisor for the team if needed.</li>
+                    </ul>
+                    <div class="timeline-tags">
+                        <span class="tag">Technical Support</span>
+                        <span class="tag">ITSM</span>
+                        <span class="tag">Troubleshooting</span>
+                        <span class="tag">ServiceNow</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RRC Internship -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">May 2023 — Aug 2023</div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-role">Full Stack Developer Intern</div>
+                            <div class="timeline-company">Red River College Polytechnic</div>
+                        </div>
+                    </div>
+                    <ul class="timeline-bullets">
+                        <li>Developed on a live ITSM web application for IT Security students as part of a school initiative</li>
+                        <li>Built and integrated both front-end and back-end components of the application</li>
+                        <li>Collaborated with 3 other developers to gather requirements and deliver updated functional site</li>
+                    </ul>
+                    <div class="timeline-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">Django</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ── Projects ── -->
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <div>
+                <div class="section-label">Work</div>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+            <a href="https://www.kaizzandcamillewedding.com/" target="_blank" class="project-card">
+                <div class="project-icon">🌐</div>
+                <div class="project-name">Wedding Website</div>
+                <p class="project-desc">
+                    I created a wedding website for my sister and her fiancé to share their love story, wedding details, and RSVP system with their guests. 
+                    It was built using mainly Html, CSS, and JavaScript. The site features a beautiful design, easy navigation, and a secure RSVP form that helped them manage their guest list efficiently.
+                    For the backend and data management, I used google sheets and google forms to store the data and manage the RSVP system, as it was easy to manage for my sister by simply looking at the google sheets app from her phone. The website was a hit among their guests and made their wedding planning process much smoother!
+                    Currently the site is still live but i took off the RSVP form is closed since the wedding has already happened. 
+                    The code to enter the site is: 2025
+                </p>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-link">
+                    Visit Wedding website <i class="fas fa-arrow-up-right-from-square"></i>
+                </div>
+            </a>
+
+            <a href="https://github.com/cjmpena/ShoeBuzz-Store-Website-PHP" target="_blank" class="project-card">
+                <div class="project-icon">💻</div>
+                <div class="project-name">Shoe Website</div>
+                <p class="project-desc">
+                    I developed a shoe store website using PHP and JavaScript, allowing users to browse and purchase shoes online. The website features a user-friendly interface, product listings, and a secure checkout process. 
+                    I implemented a shopping cart system that enables users to add items, view their cart, and proceed to checkout seamlessly. The backend is powered by PHP, which handles user authentication, product management, and order processing. 
+                    The frontend is built with JavaScript to enhance interactivity and provide a smooth user experience.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">PHP</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-link">
+                    View on GitHub <i class="fas fa-arrow-up-right-from-square"></i>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
     <footer>
-        <div class="footer-container">
-        <a href="https://github.com/cjmpena"><i class="fab fa-github" target="_blank"></i></i></a>
-        <a href="https://www.linkedin.com/in/carla-jane-manansala"><i class="fab fa-linkedin" target="_blank"></i></a>
+        <p class="footer-copy">© 2024 Carla Jane Manansala</p>
+        <div class="footer-links">
+            <a href="https://github.com/cjmpena" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/carla-jane-manansala" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:manansal.carla@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
         </div>
-    </footer>   
+    </footer>
+
+</body>
 </html>
