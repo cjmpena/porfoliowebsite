@@ -14,22 +14,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
-
     <header>
         <nav class="navbar">
-            <div class="logo">CJ<span>.</span></div>
-            <ul class="nav-links">
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Work Experience</a></li>
-                <li><a href="mailto:manansal.carla@gmail.com">Contact</a></li>
+            <div class="logo">Cj<span>.</span></div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-close">About</a></li>
+                <li><a href="#experience" class="nav-close">Work Experience</a></li>
+                <li><a href="#projects" class="nav-close">Projects</a></li>
+                <li><a href="mailto:manansal.carla@gmail.com" class="nav-close">Contact</a></li>
                 <li><a href="files/Resume.pdf" target="_blank" class="btn-resume">Resume ↗</a></li>
             </ul>
+            <script src="script.js"></script>
         </nav>
     </header>
     <section class="hero">
@@ -75,7 +77,7 @@
 
             <div class="about-bio">
                <p>Hey all! I'm Carla, nickname is CJ! I am a Software Developer based in Winnipeg, Manitoba, born in Manila, Philippines and moved to Canada when I was 6 years old. I graduated from Red River College's BIT program in 2024 and currently work at Manitoba Public Insurance.</p>
-                <p>I'm passionate about technology and learning as much as I can. Besides work life, you'll probably find me on the basketball court, deep in a video game, or planning my next trip somewhere new.</p>
+                <p>I'm passionate about technology and learning as much as I can.</p>
             </div>
 
             <div class="about-cards">
@@ -83,7 +85,7 @@
                 <div class="about-card">
                     <div class="about-card-icon">🎂</div>
                     <div class="about-card-label">Birthday</div>
-                    <div class="about-card-value">December 22, 2002</div>
+                    <div class="about-card-value">I'm 23! Born on December 22, 2002</div>
                 </div>
 
                 <div class="about-card">
@@ -102,20 +104,20 @@
 
                 <div class="about-card">
                     <div class="about-card-icon">🎮</div>
-                    <div class="about-card-label">Some of my Favourite Video Game Series</div>
+                    <div class="about-card-label">Some of my Favourite games!</div>
                     <div class="about-card-value">The Last of Us Series</div>
                     <div class="about-card-value">Resident Evil Series</div>
-                    <div class="about-card-value">GTA</div>
+                    <div class="about-card-value">Valorant</div>
                 </div>
 
                 <div class="about-card">
                     <div class="about-card-icon">✈️</div>
-                    <div class="about-card-label">Some of my Favourite Places I have been to:</div>
+                    <div class="about-card-label">Some of my Favourite places I have been to:</div>
                     <div class="about-card-value">Japan in 2025</div>
-                    <div class="about-card-value">Vancouver : Always here at least twice a year!</div>
+                    <div class="about-card-value">Vancouver 3x</div>
                     <div class="about-card-value">Los Cabos, Mexico in 2025</div>
                     <div class="about-card-value">Seoul, South Korea in 2018</div>
-                    <div class="about-card-value">Last but not least, my motherland! Manila, Philippines in 2017, 2018, 2022, 2023, 2024</div>
+                    <div class="about-card-value">Manila, Philippines 5x</div>
                 </div>
 
                 <div class="about-card">
@@ -242,7 +244,7 @@
                     I created a wedding website for my sister and her fiancé to share their love story, wedding details, and RSVP system with their guests. 
                     It was built using mainly Html, CSS, and JavaScript. The site features a beautiful design, easy navigation, and a secure RSVP form that helped them manage their guest list efficiently.
                     For the backend and data management, I used google sheets and google forms to store the data and manage the RSVP system, as it was easy to manage for my sister by simply looking at the google sheets app from her phone. The website was a hit among their guests and made their wedding planning process much smoother!
-                    Currently the site is still live but i took off the RSVP form is closed since the wedding has already happened. 
+                    Currently the site is still live but i took off the RSVP form a few weeks before the wedding as their was a deadline. 
                     The code to enter the site is: 2025
                 </p>
                 <div class="project-tags">
